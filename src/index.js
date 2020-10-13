@@ -5,4 +5,6 @@ const routes = require('./routes/');
 
 app.use(routes.recipes);
 
-app.listen(process.env.PORT);
+const host = '0.0.0.0';
+
+app.listen(process.env.PORT, host);
