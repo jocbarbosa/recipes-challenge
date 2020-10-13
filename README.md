@@ -17,7 +17,7 @@ rename .env-example to .env
 
 docker-compose up
 
-access localhost:3000/recipes/i=tomato
+access localhost:3000/recipes/?i=tomato
 ```
 
 ### Using Node JS
@@ -32,5 +32,5 @@ npm install
 
 npm start
 
-access localhost:3000/recipes/i=tomato
+access localhost:3000/recipes/?i=tomato
 ```
