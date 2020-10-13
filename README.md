@@ -2,7 +2,7 @@
 
 ## About
 
-A project made with Node JS, fetching data from <a target="_blank" href="http://www.recipepuppy.com/">RecipePuppy API</a>
+A project made with Node JS, fetching data from <a target="_blank" href="http://www.recipepuppy.com/">RecipePuppy API</a>.
 
 ## Installing
 
