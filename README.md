@@ -13,6 +13,8 @@ git clone https://github.com/jocbarbosa/recipes-challenge.git
 
 cd recipes-challenge
 
+rename .env-example to .env
+
 docker-compose up
 
 access localhost:3000/recipes/i=tomato
@@ -23,6 +25,8 @@ access localhost:3000/recipes/i=tomato
 git clone https://github.com/jocbarbosa/recipes-challenge.git
 
 cd recipes-challenge
+
+rename .env-example to .env
 
 npm install
 
