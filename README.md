@@ -1,45 +1,32 @@
 # Recipes - Node jS
 
-## Table of Contents
+## About
 
-- [About](#about)
-- [Installation](#installation)
-- [Usage](#usage)
+A project made with Node JS, fetching data from <a target="_blank" href="http://www.recipepuppy.com/">RecipePuppy API</a>
 
-## About <a name = "about"></a>
+## Installing
 
-A project made with Node JS
-
-## Getting Started <a name = "installation"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
+### Using docker
 
 ```
-Give examples
+git clone https://github.com/jocbarbosa/recipes-challenge.git
+
+cd recipes-challenge
+
+docker-compose up
+
+access localhost:3000/recipes/i=tomato
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
+### Using Node JS
 ```
-Give the example
+git clone https://github.com/jocbarbosa/recipes-challenge.git
+
+cd recipes-challenge
+
+npm install
+
+npm start
+
+access localhost:3000/recipes/i=tomato
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
